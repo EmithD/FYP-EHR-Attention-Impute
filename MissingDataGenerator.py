@@ -184,5 +184,5 @@ def generate_missing_datasets(input_path, missing_ratio):
     return output_paths
 
 if __name__ == "__main__":
-    input_file = 'synthetic_ehr_dataset_train.csv'
+    input_file = 'synthetic_ehr_dataset_test.csv'
     output_files = generate_missing_datasets(input_file, missing_ratio=0.2)

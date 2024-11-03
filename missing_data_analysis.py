@@ -99,7 +99,7 @@ def analyze_missing_values(file_path):
         
 if __name__ == "__main__":
     # Analyze the original synthetic dataset
-    file_path = 'synthetic_ehr_dataset_train_COMBINED.csv'
+    file_path = 'synthetic_ehr_dataset_train.csv'
     analyze_missing_values(file_path)
 
     print("\nNote: A heatmap visualization has been saved as 'missing_values_heatmap.png'")
