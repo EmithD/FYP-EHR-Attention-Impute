@@ -1,5 +1,5 @@
 import torch.nn as nn
-import PositionalEncoding
+from positional_encoding import PositionalEncoding
 
 class EHRImputationTransformer(nn.Module):
     def __init__(self, input_dim, d_model, nhead, num_encoder_layers, dim_feedforward, dropout=0.1):
